@@ -29,11 +29,17 @@ const Hero = () => {
       <div className="mt-[132px] px-[80px] flex justify-between">
         <div className="flex flex-col gap-[50px] flex-1">
           <img src={nexer} />
-          <p className="font-[Raleway] text-[32px] font-bold leading-[37.57px] text-[#FFFFFF]">
+          <p
+            className="font-[Raleway] text-[32px] font-bold leading-[37.57px] text-[#FFFFFF]"
+            style={{ fontWeight: "700" }}
+          >
             Hey Jacob - if you’re ready to help your network and make an
             introduction to Nexerv
           </p>
-          <p className="font-[Raleway] text-[26px] font-normal leading-[30.52px] text-[#CAD4DB]">
+          <p
+            className="font-[Raleway] text-[26px] font-normal leading-[30.52px] text-[#CAD4DB]"
+            style={{ fontWeight: "400" }}
+          >
             Or to find out more about how introductions work, keep reading
           </p>
         </div>

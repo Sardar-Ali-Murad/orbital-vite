@@ -9,20 +9,32 @@ const Benefits = () => {
     <div className="relative bg-[#D9D9D9]">
       <img src={oval} className="absolute top-[-140px]" />
       <div className="relative px-[80px] flex flex-col gap-[30px] w-[60%]">
-        <h1 className="font-[Raleway] text-[42px] font-bold leading-[49.31px] text-[#083155]">
+        <h1
+          className="font-[Raleway] text-[42px] font-bold leading-[49.31px] text-[#083155]"
+          style={{ fontWeight: "700" }}
+        >
           Everyone benefits from your introductions{" "}
         </h1>
-        <p className="font-[Raleway] text-[24px] font-normal leading-[28.18px] text-[#083155]">
+        <p
+          className="font-[Raleway] text-[24px] font-normal leading-[28.18px] text-[#083155]"
+          style={{ fontWeight: "400" }}
+        >
           With your introduction, your network receive an exclusive discount,
           making it even easier for them to access Nexer’s services.
         </p>
-        <p className="font-[Raleway] text-[24px] font-normal leading-[28.18px] text-[#083155]">
+        <p
+          className="font-[Raleway] text-[24px] font-normal leading-[28.18px] text-[#083155]"
+          style={{ fontWeight: "400" }}
+        >
           You strengthen your network and earn a well-deserved thank-you.
         </p>
       </div>
       <div className="relative mt-[78px] bg-[#FFFFFF] rounded-[40px] flex space-evenly gap-[120px] items-center content-center px-[80px] py-[70px]">
         <div className="flex relative">
-          <p className="font-[Raleway] text-[20px] font-medium leading-[23.48px] text-[#083155]">
+          <p
+            className="font-[Raleway] text-[20px] font-medium leading-[23.48px] text-[#083155]"
+            style={{ fontWeight: "500" }}
+          >
             Look out for people or companies you know that could benefit from
             Nexer's services
           </p>
@@ -33,10 +45,16 @@ const Benefits = () => {
         </div>
         <div className="flex relative">
           <div className="flex flex-col gap-[20px]">
-            <p className="font-[Raleway] text-[20px] font-medium leading-[23.48px] text-[#083155]">
+            <p
+              className="font-[Raleway] text-[20px] font-medium leading-[23.48px] text-[#083155]"
+              style={{ fontWeight: "500" }}
+            >
               Log them in Orbit - it only takes a minute.
             </p>
-            <p className="font-[Raleway] text-[20px] font-medium leading-[23.48px] text-[#083155]">
+            <p
+              className="font-[Raleway] text-[20px] font-medium leading-[23.48px] text-[#083155]"
+              style={{ fontWeight: "500" }}
+            >
               Then make the introduction in the way that feels best to
               you—email, LinkedIn, or even a quick call.
             </p>
@@ -48,14 +66,23 @@ const Benefits = () => {
         </div>
         <div className="flex relative">
           <div className="flex flex-col gap-[20px]">
-            <p className="font-[Raleway] text-[20px] font-medium leading-[23.48px] text-[#083155]">
+            <p
+              className="font-[Raleway] text-[20px] font-medium leading-[23.48px] text-[#083155]"
+              style={{ fontWeight: "500" }}
+            >
               That’s it. Nexer will take it from here.
             </p>
-            <p className="font-[Raleway] text-[20px] font-medium leading-[23.48px] text-[#083155]">
+            <p
+              className="font-[Raleway] text-[20px] font-medium leading-[23.48px] text-[#083155]"
+              style={{ fontWeight: "500" }}
+            >
               If they become a client, they’ll get a discount thanks to you, and
               you’ll earn a thank-you payment!
             </p>
-            <p className="font-[Raleway] text-[20px] font-medium leading-[23.48px] text-[#083155]">
+            <p
+              className="font-[Raleway] text-[20px] font-medium leading-[23.48px] text-[#083155]"
+              style={{ fontWeight: "500" }}
+            >
               It’s a win-win!
             </p>
           </div>
