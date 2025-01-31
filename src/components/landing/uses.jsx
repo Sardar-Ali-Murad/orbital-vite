@@ -3,7 +3,7 @@ import React from "react";
 const Uses = () => {
   return (
     <div className="py-[60px] bg-[#FFFFFF]">
-      <div className="flex flex-col gap-[20px] text-center pb-[55px]">
+      <div className="flex flex-col gap-[20px] text-center pb-[55px] ">
         <h1
           className="font-[Raleway] text-[42px] font-bold leading-[49.31px] text-[#000000]"
           style={{ fontWeight: "700" }}
@@ -25,7 +25,7 @@ const Uses = () => {
           found otherwise. And thanks to you, at a reduced cost.
         </p>
       </div>
-      <div className="px-[60px] flex gap-[120px]">
+      <div className="px-[20px] flex gap-[40px] flex-col md:flex-row md:px-[60px] md:gap-[120px] ">
         <div className="flex flex-col gap-[20px]">
           <h1
             className="font-[Raleway] text-[20px] font-bolder leading-[23.48px] text-[#083155]"

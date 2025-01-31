@@ -2,7 +2,7 @@ import React from "react";
 
 const Introduce = () => {
   return (
-    <div className="px-[80px] py-[50px] bg-[#083155]">
+    <div className="px-[20px] py-[50px] bg-[#083155] md:px-[80px] ">
       <h1
         className="font-[Raleway] text-[64px] font-bold leading-[75.14px] text-[#FFFFFF] text-center"
         style={{ fontWeight: "700" }}

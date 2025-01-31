@@ -1,14 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"], // Ensure these paths are correct
   theme: {
     extend: {
-      colors: {
-        mainColor: "#083155", // Use RGB format without alpha
-      },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
-        raleway: ['Raleway', 'sans-serif'],
+        raleway: ["Raleway", "sans-serif"],
       },
     },
   },
