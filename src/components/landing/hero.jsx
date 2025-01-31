@@ -44,8 +44,11 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex-1 relative">
-          <img src={laptop} />
-          <img src={screen} className="absolute top-[24px] left-[90px]" />
+          <img src={laptop} className="hidden md:block" />
+          <img
+            src={screen}
+            className="relative top-[24px] left-[0px] md:left-[90px] md:absolute"
+          />
         </div>
       </div>
     </div>
