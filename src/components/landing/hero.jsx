@@ -1,13 +1,12 @@
 import React from "react";
-import "./index.css";
-import logo from "../../../assets/logo.png";
-import nexer from "../../../assets/nexer.png";
-import laptop from "../../../assets/laptop.png";
-import screen from "../../../assets/screen.png";
+import logo from "../../assets/logo.png";
+import nexer from "../../assets/nexer.png";
+import laptop from "../../assets/laptop.png";
+import screen from "../../assets/screen.png";
 
 const Hero = () => {
   return (
-    <div className="bg-[#083155]">
+    <div className="bg-[#083155] pb-[140px]">
       <div className="flex justify-between px-[80px] py-[16px] items-center">
         <img src={logo} className="w-[167px] h-[61px]" />
         <div className="flex gap-[16px] items-center">
