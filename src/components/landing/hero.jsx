@@ -34,7 +34,10 @@ const Hero = () => {
             style={{ fontWeight: "700" }}
           >
             Hey Jacob - if you’re ready to help your network and make an
-            introduction to Nexerv
+            introduction to Nexer{" "}
+            <span className="w-[152px] h-[27px] p-[10px] text-[#000000]  gap-0 rounded-[40px] bg-[#FFAA00] font-[Inter] text-[18px] font-bold leading-[21.78px] shadow-[5px_5px_25px_0px_rgba(0,59,127,0.5)]">
+              Click here
+            </span>
           </p>
           <p
             className="font-[Raleway] text-[26px] font-normal leading-[30.52px] text-[#CAD4DB]"
