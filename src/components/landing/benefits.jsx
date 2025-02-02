@@ -7,8 +7,8 @@ import gift from "../../assets/gift.png";
 const Benefits = () => {
   return (
     <div className="relative bg-[#D9D9D9]">
-      <img src={oval} className="absolute top-[-140px] hidden md:block" />
-      <div className="relative px-[20px] flex flex-col py-[60px] gap-[30px] w-[100%] md:w-[60%] md:px-[80px] md:py-[0px]">
+      <img src={oval} className="absolute top-[-140px] hidden lg:block" />
+      <div className="relative px-[20px] flex flex-col py-[60px] gap-[30px] w-[100%] lg:w-[60%] lg:px-[80px] lg:py-[0px]">
         <h1
           className="font-[Raleway] text-[42px] font-bold leading-[49.31px] text-[#083155]"
           style={{ fontWeight: "700" }}
@@ -29,7 +29,7 @@ const Benefits = () => {
           You strengthen your network and earn a well-deserved thank-you.
         </p>
       </div>
-      <div className="relative mt-[78px] bg-[#FFFFFF] rounded-[40px] flex space-evenly gap-[40px] items-center content-center px-[20px] py-[70px] flex-col md:flex-row md:gap-[120px] md:px-[80px] ">
+      <div className="relative mt-[78px] bg-[#FFFFFF] rounded-[40px] flex space-evenly gap-[40px] items-center content-center px-[20px] py-[70px] flex-col lg:flex-row lg:gap-[120px] lg:px-[80px] ">
         <div className="flex relative">
           <p
             className="font-[Raleway] text-[20px] font-medium leading-[23.48px] text-[#083155]"
@@ -40,7 +40,7 @@ const Benefits = () => {
           </p>
           <img
             src={search}
-            className="w-[60px] h-[60px] absolute top-[-53px] right-[13px] md:w-[80px] md:h-[80px] hidden md:block"
+            className="w-[60px] h-[60px] absolute top-[-53px] right-[13px] lg:w-[80px] lg:h-[80px] hidden lg:block"
           />
         </div>
         <div className="flex relative">
@@ -61,7 +61,7 @@ const Benefits = () => {
           </div>
           <img
             src={chat}
-            className="w-[60px] h-[60px] absolute top-[-53px] right-[-55px]  md:w-[80px] md:h-[80px] hidden md:block"
+            className="w-[60px] h-[60px] absolute top-[-53px] right-[-55px]  lg:w-[80px] lg:h-[80px] hidden lg:block"
           />
         </div>
         <div className="flex relative">
@@ -88,7 +88,7 @@ const Benefits = () => {
           </div>
           <img
             src={gift}
-            className="w-[60px] h-[60px] absolute top-[-53px] right-[-70px]  md:w-[80px] md:h-[80px] hidden md:block"
+            className="w-[60px] h-[60px] absolute top-[-53px] right-[-70px]  lg:w-[80px] lg:h-[80px] hidden lg:block"
           />
         </div>
       </div>

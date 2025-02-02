@@ -16,9 +16,9 @@ const NewIntroductions = () => {
         >
           New Introduction to Nexer
         </h1>
-        <div className="flex flex-row gap-[96px]">
-        <Form />
-        <Introduction />
+        <div className="flex gap-[96px] flex-col xl:flex-row">
+          <Form />
+          <Introduction />
         </div>
       </div>
     </div>

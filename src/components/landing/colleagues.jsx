@@ -4,7 +4,7 @@ import img2 from "../../assets/img-2.svg";
 
 const Colleagues = () => {
   return (
-    <div className="px-[20px] py-[70px] bg-[#083155] md:px-[80px] ">
+    <div className="px-[20px] py-[70px] bg-[#083155] lg:px-[80px] ">
       <p
         className="font-[Raleway] text-[42px] font-bold leading-[49.31px] text-[#FFFFFF]"
         style={{ fontWeight: "700" }}
@@ -12,8 +12,8 @@ const Colleagues = () => {
         You have 6 colleagues who have earned over £4000 in the last month for
         their introductions
       </p>
-      <div className="flex justify-between mt-[57px] flex-col gap-[40px] md:gap-[0px] md:flex-row">
-        <div className="flex gap-[40px] flex-col md:flex-row">
+      <div className="flex justify-between mt-[57px] flex-col gap-[40px] lg:gap-[0px] lg:flex-row">
+        <div className="flex gap-[40px] flex-col lg:flex-row">
           <img src={img1} className="h-[90px] w-[90px]" />
           <div className="flex flex-col gap-[20px]">
             <p className="font-[Inter] text-[18px] font-bold leading-[21.78px] text-[#FFFFFF]">
@@ -25,7 +25,7 @@ const Colleagues = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-[40px] flex-col md:flex-row">
+        <div className="flex gap-[40px] flex-col lg:flex-row">
           <img src={img2} className="h-[90px] w-[90px]" />
           <div className="flex flex-col gap-[20px]">
             <p className="font-[Inter] text-[18px] font-bold leading-[21.78px] text-[#FFFFFF]">

@@ -25,7 +25,7 @@ const Uses = () => {
           found otherwise. And thanks to you, at a reduced cost.
         </p>
       </div>
-      <div className="px-[20px] flex gap-[40px] flex-col md:flex-row md:px-[60px] md:gap-[120px] ">
+      <div className="px-[20px] flex gap-[40px] flex-col lg:flex-row lg:px-[60px] lg:gap-[120px] ">
         <div className="flex flex-col gap-[20px]">
           <h1
             className="font-[Raleway] text-[20px] font-bolder leading-[23.48px] text-[#083155]"
