@@ -10,7 +10,7 @@ import help from "../../assets/help.png";
 
 const Sidebar = () => {
   return (
-    <div className="p-[20px] bg-[#083155] w-[240px] h-[100vh] overflow-y-auto">
+    <div className="p-[20px] bg-[#083155] w-[240px]  overflow-y-auto h-[100%]">
       <img src={logo} className=" w-[149px] ml-[-10px]" />
       <div className="mt-[30px]">
         <p className="font-[Poppins] text-[11px] font-normal leading-[11px] tracking-[1px] text-[#FFFFFF]">
