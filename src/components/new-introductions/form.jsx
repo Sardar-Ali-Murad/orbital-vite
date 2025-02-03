@@ -11,7 +11,7 @@ const Form = () => {
           >
             Name of the person you’re introducing to Nexer
           </label>
-          <input className="w-[522px] h-[30px] p-[8px_15px] gap-2 rounded-lg border-2 border-[#DDDDDD]" />
+          <input className="w-[100%] h-[30px] p-[8px_15px] gap-2 rounded-lg border-2 border-[#DDDDDD] md:w-[522px]" />
         </div>
         <div className="flex flex-col gap-[4px]">
           <label
@@ -20,7 +20,7 @@ const Form = () => {
           >
             Their role / position{" "}
           </label>
-          <input className="w-[522px] h-[30px] p-[8px_15px] gap-2 rounded-lg border-2 border-[#DDDDDD]" />
+          <input className="w-[100%] h-[30px] p-[8px_15px] gap-2 rounded-lg border-2 border-[#DDDDDD] md:w-[522px]" />
         </div>
         <div className="flex flex-col gap-[4px]">
           <label
@@ -29,7 +29,7 @@ const Form = () => {
           >
             Which company do they work at{" "}
           </label>
-          <input className="w-[522px] h-[30px] p-[8px_15px] gap-2 rounded-lg border-2 border-[#DDDDDD]" />
+          <input className="w-[100%] h-[30px] p-[8px_15px] gap-2 rounded-lg border-2 border-[#DDDDDD] md:w-[522px]" />
         </div>
         <div className="flex flex-col gap-[4px]">
           <label
@@ -38,7 +38,7 @@ const Form = () => {
           >
             Details on what they need help with{" "}
           </label>
-          <textarea className="h-[136px] w-[522px] p-[8px_15px] gap-2 rounded-lg border-2 border-[#DDDDDD]"></textarea>
+          <textarea className="h-[136px] w-[100%] p-[8px_15px] gap-2 rounded-lg border-2 border-[#DDDDDD] md:w-[522px]"></textarea>
         </div>
       </div>
       <div className="flex flex-col gap-[36px]">
