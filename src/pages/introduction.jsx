@@ -1,9 +1,8 @@
 import React from "react";
 import Sidebar from "../components/common/sidebar";
-import Form from "../components/new-introductions/form";
-import Introduction from "../components/new-introductions/introduction";
+import Form from "../components/introduction/form";
 
-const NewIntroductions = () => {
+const Introduction = () => {
   return (
     <div className="flex flex-row">
       <div>
@@ -18,11 +17,10 @@ const NewIntroductions = () => {
         </h1>
         <div className="flex gap-[96px] flex-col xl:flex-row">
           <Form />
-          <Introduction />
         </div>
       </div>
     </div>
   );
 };
 
-export default NewIntroductions;
+export default Introduction;
