@@ -7,7 +7,7 @@ const NewIntroductions = () => {
   return (
     <div className="flex flex-col md:flex-row">
       <div>
-        <Sidebar />
+        <Sidebar page="new-introductions"  />
       </div>
       <div className="pl-[37px] pt-[41px] pr-[80px] pb-[41px]">
         <h1
