@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Form = () => {
+  const navigate = useNavigate();
   return (
     <div className="flex flex-col xl:flex-row">
       <div className="py-[80px] px-[20px] md:px-[80px] md:py-[163px] flex-[1]">
@@ -48,7 +50,10 @@ const Form = () => {
           />
         </div>
         <div className="flex justify-center">
-          <div className="w-[350px] h-[63px] gap-0 rounded-[40px] bg-[#083155] shadow-[5px_5px_25px_0px_rgba(0,59,127,0.5)] mt-[26px] flex justify-center items-center">
+          <div
+            onClick={() => navigate("/introductions")}
+            className="w-[350px] h-[63px] gap-0 rounded-[40px] bg-[#083155] cursor-pointer shadow-[5px_5px_25px_0px_rgba(0,59,127,0.5)] mt-[26px] flex justify-center items-center"
+          >
             <p
               className="font-inter text-[24px] font-bold leading-[29.05px] text-center text-[#FFFFFF]"
               style={{ fontWeight: "700" }}
@@ -70,7 +75,10 @@ const Form = () => {
             Sign up to start helping your network
           </p>
         </div>
-        <div className="mt-[60px]  w-[350px] h-[63px] rounded-[40px] bg-[#FFAA00] shadow-[5px_5px_25px_0px_#003B7F80] flex justify-center items-center ">
+        <div
+          onClick={() => navigate("/introductions")}
+          className="mt-[60px]  w-[350px] h-[63px] rounded-[40px] cursor-pointer bg-[#FFAA00] shadow-[5px_5px_25px_0px_#003B7F80] flex justify-center items-center "
+        >
           <p
             className="font-inter text-[24px] font-bold leading-[29.05px] text-center text-[#000000]"
             style={{ fontWeight: "700" }}

@@ -1,6 +1,10 @@
 import React from "react";
 import tv from "../../assets/tv.png";
 import line from "../../assets/line.png";
+import img1 from "../../assets/1.png";
+import img2 from "../../assets/2.png";
+import img3 from "../../assets/3.png";
+import img4 from "../../assets/4.png";
 
 const Introduction = () => {
   return (
@@ -12,16 +16,9 @@ const Introduction = () => {
         Making your first introduction
       </h1>
       <div className="flex flex-col gap-[19px] relative">
-        <img className="absolute left-[10px] z-[-1]" src={line} />
+        <img className="absolute left-[16px] z-[-1]" src={line} />
         <div className="flex gap-[24px]">
-          <div
-            className="w-[35px]  h-[36px]  bg-[#082431] flex justify-center items-center p-[6px]"
-            style={{ borderRadius: "50%" }}
-          >
-            <p className="font-poppins text-[20px] font-bold leading-[23px] tracking-[0.5px] text-[#FFFFFF]">
-              1
-            </p>
-          </div>
+          <img src={img1} className="h-[35px] w-[35px]" />
           <div className="flex flex-col gap-[10px]">
             <h1
               className="font-poppins text-[12px] font-bold leading-[12px] tracking-[0.5px] text-[#0D1012]"
@@ -41,14 +38,7 @@ const Introduction = () => {
           </div>
         </div>
         <div className="flex gap-[24px]">
-          <div
-            className="w-[35px]  h-[36px]  bg-[#082431] flex justify-center items-center p-[6px]"
-            style={{ borderRadius: "50%" }}
-          >
-            <p className="font-poppins text-[20px] font-bold leading-[23px] tracking-[0.5px] text-[#FFFFFF]">
-              2
-            </p>
-          </div>
+          <img src={img2} className="h-[35px] w-[35px]" />
           <div className="flex flex-col gap-[10px]">
             <h1
               className="font-poppins text-[12px] font-bold leading-[12px] tracking-[0.5px] text-[#0D1012]"
@@ -67,14 +57,7 @@ const Introduction = () => {
           </div>
         </div>
         <div className="flex gap-[24px]">
-          <div
-            className="w-[35px]  h-[36px]  bg-[#082431] flex justify-center items-center p-[6px]"
-            style={{ borderRadius: "50%" }}
-          >
-            <p className="font-poppins text-[20px] font-bold leading-[23px] tracking-[0.5px] text-[#FFFFFF]">
-              3
-            </p>
-          </div>
+          <img src={img3} className="h-[35px] w-[35px]" />
           <div className="flex flex-col gap-[10px]">
             <h1
               className="font-poppins text-[12px] font-bold leading-[12px] tracking-[0.5px] text-[#0D1012]"
@@ -93,14 +76,7 @@ const Introduction = () => {
           </div>
         </div>
         <div className="flex gap-[24px]">
-          <div
-            className="w-[35px]  h-[36px]  bg-[#082431] flex justify-center items-center p-[6px]"
-            style={{ borderRadius: "50%" }}
-          >
-            <p className="font-poppins text-[20px] font-bold leading-[23px] tracking-[0.5px] text-[#FFFFFF]">
-              4
-            </p>
-          </div>
+          <img src={img4} className="h-[35px] w-[35px]" />
           <div className="flex flex-col gap-[10px]">
             <h1
               className="font-poppins text-[12px] font-bold leading-[12px] tracking-[0.5px] text-[#0D1012]"

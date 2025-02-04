@@ -7,22 +7,29 @@ import settings from "../../assets/setting.png";
 import payment from "../../assets/wallet.png";
 import profile from "../../assets/profile.png";
 import help from "../../assets/help.png";
+import { useNavigate } from "react-router-dom";
 
 const Sidebar = ({ page }) => {
+  const navigate = useNavigate();
   return (
     <div
       className={`p-[20px] bg-[#083155] w-[100%]  overflow-y-auto min-h-[100vh] h-[100%] ${
         page === "new-introductions" ? "md:w-[240px]" : "xl:w-[240px]"
       } `}
     >
-      <img src={logo} className=" w-[149px] ml-[-10px]" />
+      <img
+        src={logo}
+        className=" w-[149px] ml-[-10px] cursor-pointer"
+        onClick={() => navigate("/")}
+      />
       <div className="mt-[30px]">
         <p className="font-[Poppins] text-[11px] font-normal leading-[11px] tracking-[1px] text-[#FFFFFF]">
           MENU
         </p>
         <div className="mt-[12px] flex flex-col gap-[14px]">
           <div
-            className={`w-[200px] h-[39.72px] top-[116px] left-[20px]  rounded-[5px] flex px-[21px] py-[12px] items-center  gap-[15px]  ${
+            onClick={() => navigate("/new-introductions")}
+            className={`w-[200px] h-[39.72px] top-[116px] left-[20px] cursor-pointer  rounded-[5px] flex px-[21px] py-[12px] items-center  gap-[15px]  ${
               page === "new-introductions" && "bg-[#FFAA00]"
             }`}
           >
@@ -32,7 +39,8 @@ const Sidebar = ({ page }) => {
             </p>
           </div>
           <div
-            className={`w-[200px] h-[39.72px] top-[116px] left-[20px]  rounded-[5px]  flex px-[21px] py-[12px] items-center  gap-[15px] ${
+            onClick={() => navigate("/introductions")}
+            className={`w-[200px] h-[39.72px] cursor-pointer top-[116px] left-[20px]  rounded-[5px]  flex px-[21px] py-[12px] items-center  gap-[15px] ${
               page === "introductions" && "bg-[#FFAA00]"
             }`}
           >
@@ -55,9 +63,7 @@ const Sidebar = ({ page }) => {
         </p>
         <div className="mt-[12px] flex flex-col gap-[14px]">
           <div
-            className={`w-[200px] h-[39.72px] top-[116px] left-[20px]  rounded-[5px] flex px-[21px] py-[12px] items-center  gap-[15px] ${
-              page === "new-introductions" && " bg-[#FFAA00]"
-            }`}
+            className={`w-[200px] h-[39.72px] top-[116px] left-[20px]  rounded-[5px] flex px-[21px] py-[12px] items-center  gap-[15px]`}
           >
             <img src={settings} />
             <p className="font-[Poppins] text-[12px] font-medium leading-[12px] tracking-[0.5px] text-[#FFFFFF]">

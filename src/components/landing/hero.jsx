@@ -3,8 +3,10 @@ import logo from "../../assets/logo.png";
 import nexer from "../../assets/nexer.png";
 import laptop from "../../assets/laptop.png";
 import screen from "../../assets/screen.png";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+  const navigate = useNavigate();
   return (
     <div className="bg-[#083155] pb-[140px]">
       <div className="flex flex-col gap-[20px] justify-between px-[20px] py-[16px] items-center lg:px-[80px]  lg:flex-row lg:gap-[0px]">
@@ -35,7 +37,10 @@ const Hero = () => {
           >
             Hey Jacob - if you’re ready to help your network and make an
             introduction to Nexer{" "}
-            <span className="w-[152px] h-[27px] p-[10px] text-[#000000]  gap-0 rounded-[40px] bg-[#FFAA00] font-[Inter] text-[18px] font-bold leading-[21.78px] shadow-[5px_5px_25px_0px_rgba(0,59,127,0.5)]">
+            <span
+              onClick={() => navigate("/login")}
+              className="w-[152px] h-[27px] p-[10px] text-[#000000] cursor-pointer  gap-0 rounded-[40px] bg-[#FFAA00] font-[Inter] text-[18px] font-bold leading-[21.78px] shadow-[5px_5px_25px_0px_rgba(0,59,127,0.5)]"
+            >
               Click here
             </span>
           </p>
